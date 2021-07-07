@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+
+{% block data %}
+<form action="http://localhost:5050/first_template" method="post">
+  <input name="first_name" type="text"></br>
+  <input name="second_name" type="text"></br>
+  <input name="age" type="number"></br>
+
+  <input type="submit">
+</form>
+{% endblock %}
